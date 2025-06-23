@@ -20,7 +20,7 @@ export default function Footer() {
             </p>
             <div className="flex space-x-4">
               <Link
-                href="https://www.instagram.com/torhann_ingenieria"
+                href="https://www.instagram.com/torhann.ingenieriasas"
                 className="text-light/80 hover:text-gold transition-colors"
               >
                 <Instagram className="h-5 w-5" />
