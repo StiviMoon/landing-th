@@ -1,36 +1,214 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# 🏗️ Torhann Ingeniería S.A.S. - Landing Page
 
-First, run the development server:
+Landing page profesional para **Torhann Ingeniería S.A.S.**, empresa colombiana especializada en soluciones integrales de ingeniería civil, ambiental y agroindustrial.
+
+---
+
+## 🚀 Características
+
+- ✅ **Diseño Responsivo** - Optimizado para todos los dispositivos
+- ✅ **Next.js 15.3.4** - Framework React de última generación
+- ✅ **Tailwind CSS v4** - Estilos modernos y configurables
+- ✅ **TypeScript** - Código tipado y mantenible
+- ✅ **Componentes Modulares** - Arquitectura escalable
+- ✅ **SEO Optimizado** - Meta tags y estructura semántica
+- ✅ **Galería Interactiva** - Modal con navegación de imágenes
+- ✅ **Slider Automático** - Carrusel de clientes y testimonios
+- ✅ **Botón WhatsApp** - Contacto directo flotante
+- ✅ **Formulario de Contacto** - Validación y UX optimizada
+
+---
+
+## 🛠️ Tecnologías Utilizadas
+
+- **Framework**: Next.js 15.3.4 (App Router)
+- **Lenguaje**: TypeScript 5
+- **Estilos**: Tailwind CSS v4
+- **Iconos**: Lucide React
+- **Imágenes**: Next.js Image Optimization
+- **Animaciones**: CSS Transitions & Keyframes
+
+---
+
+## 📦 Dependencias
+
+```json
+{
+  "next": "15.3.4",
+  "react": "^19.0.0",
+  "react-dom": "^19.0.0",
+  "typescript": "^5",
+  "tailwindcss": "^4",
+  "lucide-react": "^0.522.0",
+  "class-variance-authority": "^0.7.1",
+  "clsx": "^2.1.1",
+  "tailwind-merge": "^3.3.1"
+}
+```
+
+---
+
+## 🚀 Instalación y Uso
+
+### Prerrequisitos
+
+- Node.js 18+
+- npm o yarn
+
+### Pasos
+
+1. **Clonar el repositorio**
+
+```bash
+git clone [URL_DEL_REPOSITORIO]
+cd landing-th
+```
+
+2. **Instalar dependencias**
+
+```bash
+npm install
+# o
+yarn install
+```
+
+3. **Ejecutar en desarrollo**
 
 ```bash
 npm run dev
-# or
+# o
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. **Abrir en el navegador**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📁 Estructura del Proyecto
 
-To learn more about Next.js, take a look at the following resources:
+```plaintext
+landing-th/
+├── app/
+│   ├── components/
+│   │   ├── Navbar.tsx
+│   │   ├── Hero.tsx
+│   │   ├── About.tsx
+│   │   ├── Services.tsx
+│   │   ├── Benefits.tsx
+│   │   ├── Timeline.tsx
+│   │   ├── Team.tsx
+│   │   ├── Gallery.tsx
+│   │   ├── ClientsSlider.tsx
+│   │   ├── TestimonialsSlider.tsx
+│   │   ├── ContactForm.tsx
+│   │   ├── Footer.tsx
+│   │   └── WhatsAppButton.tsx
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── public/
+├── package.json
+└── README.md
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎨 Paleta de Colores
 
-## Deploy on Vercel
+| Color        | Código    | Uso                                     |
+|--------------|-----------|------------------------------------------|
+| **Primary**  | `#0D1B2A` | Navbar, footer, títulos                  |
+| **Accent**   | `#1B263B` | Enlaces activos, botones secundarios     |
+| **Highlight**| `#0077B6` | Botones primarios, íconos                |
+| **Background**| `#F4F4F4`| Fondo de secciones                       |
+| **Success**  | `#6CA965` | Elementos de sostenibilidad              |
+| **Gold**     | `#FFD700` | Acentos de prestigio                     |
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📱 Secciones de la Landing
+
+1. **Hero** - Presentación principal con call-to-action
+2. **Nosotros** - Misión, visión, valores y descripción
+3. **Servicios** - Grid de 6 servicios principales
+4. **Beneficios** - Lista de ventajas competitivas
+5. **Trayectoria** - Timeline de hitos importantes
+6. **Equipo** - Perfiles del equipo directivo
+7. **Galería** - Imágenes del trabajo en campo
+8. **Clientes** - Slider automático de logos
+9. **Testimonios** - Carrusel de recomendaciones
+10. **Contacto** - Formulario e información de contacto
+
+---
+
+## ⚙️ Configuración
+
+### Botón de WhatsApp
+
+Editar el número en `app/components/WhatsAppButton.tsx`:
+
+```ts
+const whatsappNumber = "573028404105" // Cambiar por el número real
+```
+
+### Información de Contacto
+
+Actualizar los datos en:
+
+- `app/components/ContactForm.tsx`
+- `app/components/Footer.tsx`
+
+### Colores del Tema
+
+Modificar en `app/globals.css` dentro de la sección `@theme`.
+
+---
+
+## 🚀 Despliegue
+
+### Vercel (Recomendado)
+
+```bash
+npm run build
+vercel --prod
+```
+
+### Netlify
+
+```bash
+npm run build
+# Subir carpeta .next a Netlify
+```
+
+### Servidor Propio
+
+```bash
+npm run build
+npm start
+```
+
+---
+
+## 📞 Información de Contacto
+
+**Torhann Ingeniería S.A.S.**
+
+- 📞 **Teléfonos**: 302 840 4105 | 314 817 6370  
+- 📧 **Email**: torhanningenieriasas@gmail.com  
+- 🌐 **Web**: www.torhanningenieria.com  
+- 📲 **Instagram**: [@Torhann_ingenieria](https://www.instagram.com/Torhann_ingenieria)
+
+---
+
+## 📄 Licencia
+
+© 2025 Torhann Ingeniería S.A.S. - Todos los derechos reservados.
+
+---
+
+**Desarrollado con ❤️ para Torhann Ingeniería S.A.S.**
