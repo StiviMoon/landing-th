@@ -5,30 +5,37 @@ import { ChevronLeft, ChevronRight, Star } from "lucide-react"
 
 export default function TestimonialsSlider() {
   const [currentSlide, setCurrentSlide] = useState(0)
+const testimonials = [
+  {
+    name: "Suslym Baquero",
+    role: "Administradora Productos Almopan",
+    comment:
+      "Los profesionales con los que cuenta Torhann Ingeniería son expertos en el tema de normatividad sanitaria y en el área de ingeniería civil. Me han ayudado en mi fábrica apuntando a objetivos que han contribuido a la organización de mi compañía.",
+    rating: 5,
+  },
+  {
+    name: "María del Pilar Londoño Cardenas",
+    role: "Propietaria Empresa Pilis",
+    comment:
+      "Me encanta que mi empresa tenga una consultoría 10/10. El profesionalismo con que ejecutan los proyectos es excelente y me han ayudado a que la producción sea mejor que meses atrás. He contado con la estandarización de procesos de mis productos.",
+    rating: 5,
+  },
+  {
+    name: "Johana Romero Rojas",
+    role: "Propietaria Agrosolar",
+    comment:
+      "El equipo de Torhann Ingeniería S.A.S me ha ayudado a tener un control en el área de recursos humanos. Recomiendo la consultoría y los servicios que ofrece Torhann por su profesionalismo y experiencia.",
+    rating: 5,
+  },
+  {
+    name: "Jerley Pimentel",
+    role: "Propietario El Trigal Fabricación S.A.S",
+    comment:
+      "Agradezco inmensamente por la capacidad de sostener en mi planta la consultoría en normatividad sanitaria y el diseño de planos de la fábrica del Trigal, lo cual me ha ayudado a estandarizar los procesos y organizar la planta.",
+    rating: 5,
+  },
+];
 
-  const testimonials = [
-    {
-      name: "Ministerio de Ambiente",
-      role: "Entidad Gubernamental",
-      comment:
-        "Torhann ha demostrado excelencia técnica en proyectos de gestión ambiental y sostenibilidad, cumpliendo con los más altos estándares de calidad.",
-      rating: 5,
-    },
-    {
-      name: "Gobernación del Meta",
-      role: "Administración Pública",
-      comment:
-        "Su expertise en ordenamiento territorial y gestión de cuencas ha sido fundamental para el desarrollo de nuestros proyectos regionales.",
-      rating: 5,
-    },
-    {
-      name: "Sector Agroindustrial",
-      role: "Empresas Privadas",
-      comment:
-        "Las soluciones integrales de Torhann han optimizado nuestros procesos y mejorado significativamente nuestra eficiencia operacional.",
-      rating: 5,
-    },
-  ]
 
   useEffect(() => {
     const interval = setInterval(() => {

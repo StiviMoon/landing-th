@@ -7,14 +7,14 @@ export default function Team() {
       position: "Gerente General",
       description:
         "Ingeniero Agroindustrial con formación en Gestión Ambiental. Especialista en diseño de plantas alimentarias, normativas ISO y análisis financiero para PYMES.",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/johann.jpeg",
     },
     {
       name: "Néstor Miguel Ramírez",
       position: "Gerente Comercial",
       description:
         "Ingeniero Civil con especialización en Ingeniería Hidráulica y Gestión de Cuencas. Experto en modelación hidráulica, diseño de redes, gestión de riesgo y proyectos públicos.",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/miguel.jpeg",
     },
   ]
 
@@ -37,7 +37,7 @@ export default function Team() {
                   src={member.image || "/placeholder.svg"}
                   alt={member.name}
                   fill
-                  className="rounded-full object-cover"
+                  className="rounded-full object-cover shadow-lg"
                 />
               </div>
               <h3 className="text-xl font-bold text-primary mb-2">{member.name}</h3>
