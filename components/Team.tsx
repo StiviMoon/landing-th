@@ -6,7 +6,7 @@ export default function Team() {
       name: "Johann Hernán León",
       position: "Gerente General",
       description:
-        "Ingeniero Agroindustrial con formación en Gestión Ambiental. Especialista en diseño de plantas alimentarias, normativas ISO y análisis financiero para PYMES.",
+        "Ingeniero Agroindustrial con formación en Gestión Ambiental. Experiencia en diseño de plantas alimentarias, normativas ISO y análisis financiero para PYMES.",
       image: "/johann.jpeg",
     },
     {
@@ -38,6 +38,7 @@ export default function Team() {
                   alt={member.name}
                   fill
                   className="rounded-full object-cover shadow-lg"
+                  style={{ objectPosition: "center top" }} // Centra horizontalmente y alinea arriba
                 />
               </div>
               <h3 className="text-xl font-bold text-primary mb-2">{member.name}</h3>
