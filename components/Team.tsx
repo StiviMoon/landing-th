@@ -19,10 +19,10 @@ export default function Team() {
   ]
 
   return (
-    <section id="equipo" className="py-20 bg-light">
+    <section id="equipo" className="py-20 bg-primary">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">Nuestro Equipo</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-light mb-4">Nuestro Equipo</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Profesionales altamente calificados con experiencia interdisciplinaria comprometidos con la excelencia en
             cada proyecto.
