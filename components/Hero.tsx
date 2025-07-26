@@ -4,30 +4,29 @@ import Image from "next/image"
 export default function Hero() {
   return (
     <section id="inicio" className="relative min-h-[95vh] flex items-center justify-center overflow-hidden">
-      {/* Background Image */}
-      <div className="absolute inset-0 z-0">
-        <Image
-          src="/he.jpg"
-          alt="Ingeniería civil y ambiental"
-          fill
-          className="object-cover"
-          priority
-        />
-        <div className="absolute inset-0 bg-primary/75"></div>
-      </div>
+      {/* Background Color */}
+      <div className="absolute inset-0 z-0 bg-primary"></div>
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center text-light">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-            Torhann Ingeniería S.A.S.
-            <span className="block text-gold text-2xl md:text-3xl font-medium mt-2">
-              Soluciones Innovadoras · Resultados Reales
-            </span>
-          </h1>
+          {/* Logo Container */}
+          <div className="flex justify-center mb-4">
+            <Image 
+              src="/logotC.png" 
+              alt="Torhann Ingeniería S.A.S." 
+              width={400} 
+              height={150} 
+              className="object-contain"
+            />
+          </div>
+          
+          <span className="block text-white font-bold text-2xl md:text-3xl mb-6">
+            Soluciones Innovadoras · Resultados Reales
+          </span>
+          
           <p className="text-xl md:text-2xl mb-8 text-light/90 max-w-3xl mx-auto">
-            Empresa colombiana dedicada al diseño y ejecución de soluciones integrales en ingeniería civil, ambiental y
-            agroindustrial, alineadas con estándares internacionales de calidad, sostenibilidad e innovación.
+             Empresa colombiana dedicada a la consultoría y ejecución alineadas con estándares internacionales de calidad, sostenibilidad e innovación, en áreas de la ingeniería como Agroindustrial, Civil, Ambiental, Seguridad y Salud en el Trabajo (SST) y recursos humanos.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="#servicios" className="btn btn-lg bg-highlight text-light hover:bg-primary font-semibold">

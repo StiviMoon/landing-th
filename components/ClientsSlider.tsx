@@ -4,8 +4,6 @@ import Image from "next/image"
 
 export default function ClientsSlider() {
   const clients = [
-    { name: "Gobernación del Meta", logo: "/meta.png" },
-    { name: "Ministerio de Ambiente", logo: "/ambiente.png" },
     { name: "Agro", logo: "/agro.png" },
     { name: "Pilis", logo: "/pill.png" },
     { name: "T", logo: "/logo.png" },

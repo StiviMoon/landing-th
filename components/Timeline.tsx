@@ -14,6 +14,11 @@ export default function Timeline() {
       year: "2020",
       title: "Desarrollo de Marca",
       description: "Desarrollo de marca asociada e inicio de nuevas líneas de negocio.",
+    },  
+    {
+      year: "2020 - 2021",
+      title: "Diseño de plantas agroindustriales",
+      description: "Diseño de plantas agroindustriales para el sector agroindustrial.",
     },
     {
       year: "2022",

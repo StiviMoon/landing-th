@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Torhann Ingeniería S.A.S. - Soluciones Innovadoras · Resultados Reales",
   description:
-    "Empresa colombiana dedicada al diseño y ejecución de soluciones integrales en ingeniería civil, ambiental y agroindustrial. Consultoría técnica y estratégica con estándares internacionales.",
+    "Empresa colombiana dedicada a la consultoría y ejecución alineadas con estándares internacionales de calidad, sostenibilidad e innovación, en áreas de la ingeniería como Agroindustrial, Civil, Ambiental, Seguridad y Salud en el Trabajo (SST) y recursos humanos.",
   keywords:
     "ingeniería civil, ingeniería ambiental, agroindustrial, consultoría técnica, sostenibilidad, Colombia, obras civiles, gestión ambiental",
 }
