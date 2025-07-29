@@ -11,20 +11,22 @@ export default function Benefits() {
   ]
 
   return (
-    <section className="py-20 bg-primary text-light">
+    <section className="py-16 md:py-20 bg-primary text-light">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Beneficios de Trabajar con Nosotros</h2>
-          <p className="text-lg text-light/90 max-w-2xl mx-auto">
+        <div className="text-center mb-12 md:mb-16">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-3 md:mb-4 leading-tight">
+            Beneficios de Trabajar con Nosotros
+          </h2>
+          <p className="text-base md:text-lg text-light/90 max-w-2xl mx-auto leading-relaxed px-2">
             Resultados garantizados con soporte 24/7 y compromiso con la excelencia en cada proyecto.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 max-w-4xl mx-auto">
           {benefits.map((benefit, index) => (
-            <div key={index} className="flex items-start space-x-4">
-              <CheckCircle className="h-6 w-6 text-success flex-shrink-0 mt-1" />
-              <p className="text-lg text-light/90">{benefit}</p>
+            <div key={index} className="flex items-start space-x-3 md:space-x-4">
+              <CheckCircle className="h-5 w-5 md:h-6 md:w-6 text-success flex-shrink-0 mt-0.5" />
+              <p className="text-sm md:text-lg text-light/90 leading-relaxed">{benefit}</p>
             </div>
           ))}
         </div>

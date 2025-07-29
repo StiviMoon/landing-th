@@ -63,21 +63,23 @@ export default function Gallery() {
   }
 
   return (
-    <section id="galeria" className="py-20 bg-background">
+    <section id="galeria" className="py-16 md:py-20 bg-background">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">Nuestro Trabajo en Acción</h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+        <div className="text-center mb-12 md:mb-16">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-primary mb-3 md:mb-4 leading-tight">
+            Nuestro Trabajo en Acción
+          </h2>
+          <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed px-2">
             Conoce de cerca cómo nuestro equipo desarrolla proyectos de ingeniería con los más altos estándares de
             calidad y profesionalismo.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
           {galleryImages.map((image, index) => (
             <div
               key={index}
-              className="relative group cursor-pointer overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
+              className="relative group cursor-pointer overflow-hidden rounded-lg md:rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
               onClick={() => openModal(index)}
             >
               <div className="aspect-[4/3] relative">
@@ -88,8 +90,8 @@ export default function Gallery() {
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
                 />
                 <div className="absolute inset-0 bg-primary/0 group-hover:bg-primary/20 transition-colors duration-300"></div>
-                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-primary/80 to-transparent p-4">
-                  <h3 className="text-light font-semibold text-lg">{image.title}</h3>
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-primary/80 to-transparent p-3 md:p-4">
+                  <h3 className="text-light font-semibold text-sm md:text-lg leading-tight">{image.title}</h3>
                 </div>
               </div>
             </div>
@@ -98,13 +100,13 @@ export default function Gallery() {
 
         {/* Modal */}
         {selectedImage !== null && (
-          <div className="fixed inset-0 z-50 flex items-center justify-center bg-primary/90 backdrop-blur-sm">
-            <div className="relative max-w-4xl max-h-[90vh] mx-4">
+          <div className="fixed inset-0 z-50 flex items-center justify-center bg-primary/90 backdrop-blur-sm p-4">
+            <div className="relative max-w-4xl max-h-[90vh] mx-auto w-full">
               <button
                 onClick={closeModal}
-                className="absolute -top-12 right-0 text-light hover:text-gold transition-colors"
+                className="absolute -top-8 md:-top-12 right-0 text-light hover:text-gold transition-colors z-10"
               >
-                <X className="h-8 w-8" />
+                <X className="h-6 w-6 md:h-8 md:w-8" />
               </button>
               <div className="relative">
                 <Image
@@ -112,26 +114,26 @@ export default function Gallery() {
                   alt={galleryImages[selectedImage].alt}
                   width={800}
                   height={600}
-                  className="rounded-lg max-h-[80vh] object-contain"
+                  className="rounded-lg md:rounded-xl max-h-[80vh] object-contain w-full"
                 />
-                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-primary/80 to-transparent p-6 rounded-b-lg">
-                  <h3 className="text-light font-bold text-xl mb-2">{galleryImages[selectedImage].title}</h3>
-                  <p className="text-light/90 text-sm">{galleryImages[selectedImage].alt}</p>
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-primary/80 to-transparent p-4 md:p-6 rounded-b-lg md:rounded-b-xl">
+                  <h3 className="text-light font-bold text-lg md:text-xl mb-1 md:mb-2 leading-tight">{galleryImages[selectedImage].title}</h3>
+                  <p className="text-light/90 text-xs md:text-sm leading-relaxed">{galleryImages[selectedImage].alt}</p>
                 </div>
               </div>
               <button
                 onClick={prevImage}
-                className="absolute left-4 top-1/2 transform -translate-y-1/2 text-light hover:text-gold transition-colors"
+                className="absolute left-2 md:left-4 top-1/2 transform -translate-y-1/2 text-light hover:text-gold transition-colors bg-primary/50 rounded-full p-2"
               >
-                <svg className="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="h-6 w-6 md:h-8 md:w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
                 </svg>
               </button>
               <button
                 onClick={nextImage}
-                className="absolute right-4 top-1/2 transform -translate-y-1/2 text-light hover:text-gold transition-colors"
+                className="absolute right-2 md:right-4 top-1/2 transform -translate-y-1/2 text-light hover:text-gold transition-colors bg-primary/50 rounded-full p-2"
               >
-                <svg className="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="h-6 w-6 md:h-8 md:w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
               </button>

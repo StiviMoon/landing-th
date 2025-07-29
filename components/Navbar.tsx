@@ -19,22 +19,22 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 w-full bg-light/95 backdrop-blur-sm border-b border-gray-200 shadow-sm">
       <div className="container mx-auto px-4">
-        <div className="flex h-16 items-center justify-between">
+        <div className="flex h-14 md:h-16 items-center justify-between">
           {/* Logo */}
           <Link href="#inicio" className="flex items-center space-x-2">
-            <div className="w-20 rounded-lg flex items-center justify-center">
-             <img src="/logo.png" alt="logo" />
+            <div className="w-16 md:w-20 rounded-lg flex items-center justify-center">
+             <img src="/logo.png" alt="logo" className="w-full h-auto" />
             </div>
-            <span className="font-bold text-xl text-primary">Torhann</span>
+            <span className="font-bold text-lg md:text-xl text-primary">Torhann</span>
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-6 lg:space-x-8">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-sm font-medium text-primary hover:text-highlight transition-colors"
+                className="text-sm lg:text-base font-medium text-primary hover:text-highlight transition-colors"
               >
                 {link.label}
               </Link>
@@ -43,14 +43,18 @@ export default function Navbar() {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Link href="#contacto" className="btn btn-primary btn-md">
+            <Link href="#contacto" className="btn btn-primary btn-sm lg:btn-md">
               Contáctanos
             </Link>
           </div>
 
           {/* Mobile Menu Button */}
-          <button className="md:hidden p-2" onClick={() => setIsOpen(!isOpen)} aria-label="Toggle menu">
-            {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+          <button 
+            className="md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors" 
+            onClick={() => setIsOpen(!isOpen)} 
+            aria-label="Toggle menu"
+          >
+            {isOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
           </button>
         </div>
 
@@ -62,7 +66,7 @@ export default function Navbar() {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="block px-3 py-2 text-base font-medium text-primary hover:text-highlight transition-colors"
+                  className="block px-3 py-2 text-base font-medium text-primary hover:text-highlight hover:bg-gray-50 rounded-lg transition-colors"
                   onClick={() => setIsOpen(false)}
                 >
                   {link.label}

@@ -37,41 +37,41 @@ export default function ContactForm() {
 
   const contactInfo = [
     {
-      icon: <Phone className="h-5 w-5" />,
+      icon: <Phone className="h-4 w-4 md:h-5 md:w-5" />,
       title: "Teléfonos",
       content: (
         <div className="space-y-1">
-          <a href="tel:3028404105" className="block hover:text-highlight transition-colors">302 840 4105</a>
-          <a href="tel:3148176370" className="block hover:text-highlight transition-colors">314 817 6370</a>
+          <a href="tel:3028404105" className="block hover:text-highlight transition-colors text-sm md:text-base">302 840 4105</a>
+          <a href="tel:3148176370" className="block hover:text-highlight transition-colors text-sm md:text-base">314 817 6370</a>
         </div>
       ),
       color: "bg-blue-500"
     },
     {
-      icon: <Mail className="h-5 w-5" />,
+      icon: <Mail className="h-4 w-4 md:h-5 md:w-5" />,
       title: "Email",
       content: (
-        <a href="mailto:torhanningenieriasas@gmail.com" className="hover:text-highlight transition-colors">
+        <a href="mailto:torhanningenieriasas@gmail.com" className="hover:text-highlight transition-colors text-sm md:text-base">
           torhanningenieriasas@gmail.com
         </a>
       ),
       color: "bg-green-500"
     },
     {
-      icon: <Globe className="h-5 w-5" />,
+      icon: <Globe className="h-4 w-4 md:h-5 md:w-5" />,
       title: "Sitio Web",
       content: (
-        <a href="https://www.torhanningenieria.com" target="_blank" rel="noopener noreferrer" className="hover:text-highlight transition-colors">
+        <a href="https://www.torhanningenieria.com" target="_blank" rel="noopener noreferrer" className="hover:text-highlight transition-colors text-sm md:text-base">
           www.torhanningenieria.com
         </a>
       ),
       color: "bg-purple-500"
     },
     {
-      icon: <Instagram className="h-5 w-5" />,
+      icon: <Instagram className="h-4 w-4 md:h-5 md:w-5" />,
       title: "Instagram",
       content: (
-        <a href="https://www.instagram.com/Torhann.ingenieriasas" target="_blank" rel="noopener noreferrer" className="hover:text-highlight transition-colors">
+        <a href="https://www.instagram.com/Torhann.ingenieriasas" target="_blank" rel="noopener noreferrer" className="hover:text-highlight transition-colors text-sm md:text-base">
           @Torhann.ingenieriasas
         </a>
       ),
@@ -80,44 +80,44 @@ export default function ContactForm() {
   ]
 
   const supportFeatures = [
-    { icon: <Clock className="h-4 w-4" />, text: "Soporte técnico 24/7" },
-    { icon: <CheckCircle className="h-4 w-4" />, text: "Consultoría Lunes - Viernes" },
-    { icon: <CheckCircle className="h-4 w-4" />, text: "Seguimiento permanente" },
+    { icon: <Clock className="h-3 w-3 md:h-4 md:w-4" />, text: "Soporte técnico 24/7" },
+    { icon: <CheckCircle className="h-3 w-3 md:h-4 md:w-4" />, text: "Consultoría Lunes - Viernes" },
+    { icon: <CheckCircle className="h-3 w-3 md:h-4 md:w-4" />, text: "Seguimiento permanente" },
   ]
 
   return (
-    <section id="contacto" className="py-20 bg-gradient-to-b from-background to-light/30">
+    <section id="contacto" className="py-16 md:py-20 bg-gradient-to-b from-background to-light/30">
       <div className="container mx-auto px-4">
         {/* Header */}
-        <div className="text-center mb-16">
-          <div className="inline-flex items-center gap-2 bg-highlight/10 text-highlight px-4 py-2 rounded-full text-sm font-medium mb-6">
-            <Send className="h-4 w-4" />
+        <div className="text-center mb-12 md:mb-16">
+          <div className="inline-flex items-center gap-2 bg-highlight/10 text-highlight px-3 py-1.5 md:px-4 md:py-2 rounded-full text-xs md:text-sm font-medium mb-4 md:mb-6">
+            <Send className="h-3 w-3 md:h-4 md:w-4" />
             Contacto
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-4 md:mb-6 leading-tight">
             ¿Listo para <span className="text-highlight">Transformar</span> tu Proyecto?
           </h2>
-          <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+          <p className="text-base md:text-lg lg:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed px-2">
             Cuéntanos sobre tu proyecto y te ayudaremos a transformar tus ideas en soluciones reales 
             con la calidad y profesionalismo que mereces.
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 max-w-7xl mx-auto">
+        <div className="grid lg:grid-cols-2 gap-8 md:gap-12 max-w-7xl mx-auto">
           {/* Contact Information */}
-          <div className="space-y-8">
+          <div className="space-y-6 md:space-y-8 order-2 lg:order-1">
             {/* Contact Cards */}
-            <div className="space-y-4">
+            <div className="space-y-3 md:space-y-4">
               {contactInfo.map((info, index) => (
                 <div key={index} className="group">
-                  <div className="bg-light rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 group-hover:scale-105">
-                    <div className="flex items-start gap-4">
-                      <div className={`${info.color} p-3 rounded-xl text-white flex-shrink-0`}>
+                  <div className="bg-light rounded-xl md:rounded-2xl p-4 md:p-6 shadow-lg hover:shadow-xl transition-all duration-300 group-hover:scale-105">
+                    <div className="flex items-start gap-3 md:gap-4">
+                      <div className={`${info.color} p-2 md:p-3 rounded-lg md:rounded-xl text-white flex-shrink-0`}>
                         {info.icon}
                       </div>
                       <div className="flex-1">
-                        <h4 className="font-bold text-primary text-lg mb-2">{info.title}</h4>
-                        <div className="text-muted-foreground text-sm">
+                        <h4 className="font-bold text-primary text-base md:text-lg mb-1 md:mb-2">{info.title}</h4>
+                        <div className="text-muted-foreground text-xs md:text-sm">
                           {info.content}
                         </div>
                       </div>
@@ -128,23 +128,23 @@ export default function ContactForm() {
             </div>
 
             {/* Support Section */}
-            <div className="bg-gradient-to-br from-primary to-accent rounded-2xl p-8 text-light">
-              <h4 className="text-2xl font-bold mb-6 flex items-center gap-3">
-                <Clock className="h-6 w-6 text-gold" />
+            <div className="bg-gradient-to-br from-primary to-accent rounded-xl md:rounded-2xl p-6 md:p-8 text-light">
+              <h4 className="text-xl md:text-2xl font-bold mb-4 md:mb-6 flex items-center gap-2 md:gap-3">
+                <Clock className="h-5 w-5 md:h-6 md:w-6 text-gold" />
                 Soporte y Acompañamiento
               </h4>
-              <div className="space-y-4">
+              <div className="space-y-3 md:space-y-4">
                 {supportFeatures.map((feature, index) => (
-                  <div key={index} className="flex items-center gap-3">
+                  <div key={index} className="flex items-center gap-2 md:gap-3">
                     <div className="text-gold">
                       {feature.icon}
                     </div>
-                    <span className="text-light/90">{feature.text}</span>
+                    <span className="text-light/90 text-sm md:text-base">{feature.text}</span>
                   </div>
                 ))}
               </div>
-              <div className="mt-6 p-4 bg-light/10 rounded-xl">
-                <p className="text-sm text-light/80">
+              <div className="mt-4 md:mt-6 p-3 md:p-4 bg-light/10 rounded-lg md:rounded-xl">
+                <p className="text-xs md:text-sm text-light/80 leading-relaxed">
                   <strong>Respuesta garantizada:</strong> Te contactaremos en menos de 24 horas con una propuesta personalizada.
                 </p>
               </div>
@@ -152,21 +152,21 @@ export default function ContactForm() {
           </div>
 
           {/* Contact Form */}
-          <div className="relative">
-            <div className="bg-light rounded-3xl p-8 shadow-2xl border border-gray-100">
-              <div className="text-center mb-8">
-                <h3 className="text-2xl md:text-3xl font-bold text-primary mb-3">
+          <div className="relative order-1 lg:order-2">
+            <div className="bg-light rounded-2xl md:rounded-3xl p-6 md:p-8 shadow-2xl border border-gray-100">
+              <div className="text-center mb-6 md:mb-8">
+                <h3 className="text-xl md:text-2xl lg:text-3xl font-bold text-primary mb-2 md:mb-3 leading-tight">
                   Solicitar Cotización
                 </h3>
-                <p className="text-muted-foreground">
+                <p className="text-muted-foreground text-sm md:text-base">
                   Completa el formulario y recibe una propuesta personalizada
                 </p>
               </div>
               
-              <form onSubmit={handleSubmit} className="space-y-6">
-                <div className="grid sm:grid-cols-2 gap-6">
+              <form onSubmit={handleSubmit} className="space-y-4 md:space-y-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6">
                   <div>
-                    <label htmlFor="name" className="block text-sm font-semibold text-primary mb-2">
+                    <label htmlFor="name" className="block text-xs md:text-sm font-semibold text-primary mb-1 md:mb-2">
                       Nombre Completo *
                     </label>
                     <input
@@ -177,11 +177,11 @@ export default function ContactForm() {
                       value={formData.name}
                       onChange={handleChange}
                       placeholder="Tu nombre completo"
-                      className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-highlight focus:border-transparent transition-all duration-300 bg-white"
+                      className="w-full px-3 md:px-4 py-2.5 md:py-3 border border-gray-200 rounded-lg md:rounded-xl focus:ring-2 focus:ring-highlight focus:border-transparent transition-all duration-300 bg-white text-sm md:text-base"
                     />
                   </div>
                   <div>
-                    <label htmlFor="phone" className="block text-sm font-semibold text-primary mb-2">
+                    <label htmlFor="phone" className="block text-xs md:text-sm font-semibold text-primary mb-1 md:mb-2">
                       Teléfono *
                     </label>
                     <input
@@ -192,13 +192,13 @@ export default function ContactForm() {
                       value={formData.phone}
                       onChange={handleChange}
                       placeholder="Tu número de teléfono"
-                      className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-highlight focus:border-transparent transition-all duration-300 bg-white"
+                      className="w-full px-3 md:px-4 py-2.5 md:py-3 border border-gray-200 rounded-lg md:rounded-xl focus:ring-2 focus:ring-highlight focus:border-transparent transition-all duration-300 bg-white text-sm md:text-base"
                     />
                   </div>
                 </div>
                 
                 <div>
-                  <label htmlFor="email" className="block text-sm font-semibold text-primary mb-2">
+                  <label htmlFor="email" className="block text-xs md:text-sm font-semibold text-primary mb-1 md:mb-2">
                     Correo Electrónico *
                   </label>
                   <input
@@ -209,12 +209,12 @@ export default function ContactForm() {
                     value={formData.email}
                     onChange={handleChange}
                     placeholder="tu@email.com"
-                    className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-highlight focus:border-transparent transition-all duration-300 bg-white"
+                    className="w-full px-3 md:px-4 py-2.5 md:py-3 border border-gray-200 rounded-lg md:rounded-xl focus:ring-2 focus:ring-highlight focus:border-transparent transition-all duration-300 bg-white text-sm md:text-base"
                   />
                 </div>
                 
                 <div>
-                  <label htmlFor="message" className="block text-sm font-semibold text-primary mb-2">
+                  <label htmlFor="message" className="block text-xs md:text-sm font-semibold text-primary mb-1 md:mb-2">
                     Describe tu proyecto *
                   </label>
                   <textarea
@@ -224,16 +224,16 @@ export default function ContactForm() {
                     value={formData.message}
                     onChange={handleChange}
                     placeholder="Cuéntanos sobre tu proyecto, necesidades específicas, objetivos y cualquier detalle relevante..."
-                    rows={5}
-                    className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-highlight focus:border-transparent transition-all duration-300 bg-white resize-none"
+                    rows={4}
+                    className="w-full px-3 md:px-4 py-2.5 md:py-3 border border-gray-200 rounded-lg md:rounded-xl focus:ring-2 focus:ring-highlight focus:border-transparent transition-all duration-300 bg-white resize-none text-sm md:text-base"
                   />
                 </div>
                 
                 <button 
                   type="submit" 
-                  className="w-full bg-gradient-to-r from-highlight to-primary text-light font-semibold py-4 px-8 rounded-xl hover:shadow-lg transform hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2"
+                  className="w-full bg-gradient-to-r from-highlight to-primary text-light font-semibold py-3 md:py-4 px-6 md:px-8 rounded-lg md:rounded-xl hover:shadow-lg transform hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2 text-sm md:text-base"
                 >
-                  <Send className="h-5 w-5" />
+                  <Send className="h-4 w-4 md:h-5 md:w-5" />
                   Enviar Solicitud
                 </button>
               </form>

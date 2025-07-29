@@ -48,15 +48,15 @@
   }
 
   .btn-sm {
-    @apply h-9 px-3;
+    @apply h-8 px-3 py-1.5 text-xs;
   }
 
   .btn-md {
-    @apply h-10 px-4 py-2;
+    @apply h-9 px-4 py-2 text-sm;
   }
 
   .btn-lg {
-    @apply h-11 px-8;
+    @apply h-10 px-6 py-2.5 text-sm md:text-base;
   }
 
   .card {
@@ -64,7 +64,7 @@
   }
 
   .input {
-    @apply flex h-10 w-full rounded-md border border-gray-300 bg-light px-3 py-2 text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-highlight focus:border-transparent disabled:cursor-not-allowed disabled:opacity-50;
+    @apply flex h-9 md:h-10 w-full rounded-md border border-gray-300 bg-light px-3 py-2 text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-highlight focus:border-transparent disabled:cursor-not-allowed disabled:opacity-50;
   }
 
   .textarea {
@@ -79,7 +79,9 @@
   .scrollbar-hide::-webkit-scrollbar {
     display: none;
   }
-  @layer utilities {
+}
+
+@layer utilities {
   @keyframes scroll-left {
     0% {
       transform: translateX(0);
@@ -92,6 +94,92 @@
   .animate-scroll {
     animation: scroll-left 20s linear infinite;
   }
-}
 
+  /* Responsive text utilities */
+  .text-responsive-xs {
+    @apply text-xs md:text-sm;
+  }
+
+  .text-responsive-sm {
+    @apply text-sm md:text-base;
+  }
+
+  .text-responsive-base {
+    @apply text-base md:text-lg;
+  }
+
+  .text-responsive-lg {
+    @apply text-lg md:text-xl;
+  }
+
+  .text-responsive-xl {
+    @apply text-xl md:text-2xl;
+  }
+
+  .text-responsive-2xl {
+    @apply text-2xl md:text-3xl lg:text-4xl;
+  }
+
+  .text-responsive-3xl {
+    @apply text-3xl md:text-4xl lg:text-5xl;
+  }
+
+  /* Responsive spacing utilities */
+  .space-responsive-sm {
+    @apply space-y-2 md:space-y-3;
+  }
+
+  .space-responsive-base {
+    @apply space-y-3 md:space-y-4;
+  }
+
+  .space-responsive-lg {
+    @apply space-y-4 md:space-y-6;
+  }
+
+  .space-responsive-xl {
+    @apply space-y-6 md:space-y-8;
+  }
+
+  /* Responsive padding utilities */
+  .p-responsive-sm {
+    @apply p-3 md:p-4;
+  }
+
+  .p-responsive-base {
+    @apply p-4 md:p-6;
+  }
+
+  .p-responsive-lg {
+    @apply p-6 md:p-8;
+  }
+
+  .p-responsive-xl {
+    @apply p-8 md:p-12;
+  }
+
+  /* Responsive margin utilities */
+  .m-responsive-sm {
+    @apply mb-3 md:mb-4;
+  }
+
+  .m-responsive-base {
+    @apply mb-4 md:mb-6;
+  }
+
+  .m-responsive-lg {
+    @apply mb-6 md:mb-8;
+  }
+
+  .m-responsive-xl {
+    @apply mb-8 md:mb-12;
+  }
+
+  .m-responsive-2xl {
+    @apply mb-12 md:mb-16;
+  }
+
+  .m-responsive-3xl {
+    @apply mb-16 md:mb-20;
+  }
 }
