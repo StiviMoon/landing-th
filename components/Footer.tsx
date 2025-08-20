@@ -21,7 +21,7 @@ export default function Footer() {
     },
     {
       name: "Sitio Web",
-      href: "http://www.torhanningenieriasas.com",
+      href: "https://www.torhanningenieriasas.com",
       icon: <Globe className="h-4 w-4 md:h-5 md:w-5" />,
       color: "hover:text-blue-500",
     },
