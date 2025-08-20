@@ -5,12 +5,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const currentDate = new Date().toISOString();
 
   return [
+    // Página Principal
     {
       url: baseUrl,
       lastModified: currentDate,
       changeFrequency: "weekly",
       priority: 1,
     },
+
+    // Secciones Principales (en Navbar)
     {
       url: `${baseUrl}#inicio`,
       lastModified: currentDate,
@@ -47,84 +50,31 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.9,
     },
-    // URLs adicionales para mejor SEO
+
+    // Secciones Adicionales (contenido implementado)
     {
-      url: `${baseUrl}/servicios/ingenieria-civil`,
-      lastModified: currentDate,
-      changeFrequency: "weekly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/servicios/ingenieria-ambiental`,
-      lastModified: currentDate,
-      changeFrequency: "weekly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/servicios/ingenieria-agroindustrial`,
-      lastModified: currentDate,
-      changeFrequency: "weekly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/servicios/consultoria-tecnica`,
-      lastModified: currentDate,
-      changeFrequency: "weekly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/servicios/sst-colombia`,
-      lastModified: currentDate,
-      changeFrequency: "weekly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/servicios/drones-topografia`,
-      lastModified: currentDate,
-      changeFrequency: "weekly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/proyectos`,
-      lastModified: currentDate,
-      changeFrequency: "monthly",
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/certificaciones`,
+      url: `${baseUrl}#beneficios`,
       lastModified: currentDate,
       changeFrequency: "monthly",
       priority: 0.6,
     },
     {
-      url: `${baseUrl}/blog`,
+      url: `${baseUrl}#trayectoria`,
       lastModified: currentDate,
-      changeFrequency: "weekly",
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}#clientes`,
+      lastModified: currentDate,
+      changeFrequency: "monthly",
       priority: 0.6,
     },
     {
-      url: `${baseUrl}/contacto/colombia`,
+      url: `${baseUrl}#testimonios`,
       lastModified: currentDate,
       changeFrequency: "monthly",
       priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/ubicacion/bogota`,
-      lastModified: currentDate,
-      changeFrequency: "monthly",
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/ubicacion/medellin`,
-      lastModified: currentDate,
-      changeFrequency: "monthly",
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/ubicacion/colombia`,
-      lastModified: currentDate,
-      changeFrequency: "monthly",
-      priority: 0.7,
     },
   ];
 }

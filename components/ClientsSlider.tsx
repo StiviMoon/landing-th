@@ -1,6 +1,6 @@
-"use client"
+"use client";
 
-import Image from "next/image"
+import Image from "next/image";
 
 export default function ClientsSlider() {
   const clients = [
@@ -8,18 +8,22 @@ export default function ClientsSlider() {
     { name: "Pilis", logo: "/pill.png" },
     { name: "T", logo: "/logo.png" },
     { name: "Pan", logo: "/pan.jpg" },
-  ]
+  ];
 
   return (
-    <section className="py-16 md:py-20 bg-background">
+    <section
+      id="clientes"
+      className="py-16 md:py-20 bg-background"
+      aria-label="Clientes y aliados de Torhann Ingeniería en Colombia"
+    >
       <div className="container mx-auto px-4">
         <div className="text-center mb-12 md:mb-16">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-primary mb-3 md:mb-4 leading-tight">
             Clientes y Aliados
           </h2>
           <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed px-2">
-            Trabajamos con organizaciones públicas y privadas a nivel nacional, incluyendo entidades gubernamentales y
-            empresas del sector.
+            Trabajamos con organizaciones públicas y privadas a nivel nacional,
+            incluyendo entidades gubernamentales y empresas del sector.
           </p>
         </div>
 
@@ -44,5 +48,5 @@ export default function ClientsSlider() {
         </div>
       </div>
     </section>
-  )
+  );
 }

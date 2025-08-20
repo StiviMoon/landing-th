@@ -13,12 +13,17 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://torhanningenieriasas.com/"/>
   </url>
 
-  <!-- Secciones Principales -->
+  <!-- Secciones Principales (en Navbar) -->
   <url>
     <loc>https://torhanningenieriasas.com/#inicio</loc>
     <lastmod>2024-08-20T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://torhanningenieriasas.com/logotC.png</image:loc>
+      <image:title>Torhann Ingeniería S.A.S. - Servicios de Ingeniería en Colombia</image:title>
+      <image:caption>Empresa líder en servicios de ingeniería civil, ambiental y agroindustrial en Colombia</image:caption>
+    </image:image>
   </url>
 
   <url>
@@ -26,6 +31,11 @@
     <lastmod>2024-08-20T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://torhanningenieriasas.com/equipo.png</image:loc>
+      <image:title>Sobre Torhann Ingeniería en Colombia</image:title>
+      <image:caption>Equipo de ingenieros especializados trabajando en proyectos en Colombia</image:caption>
+    </image:image>
   </url>
 
   <url>
@@ -33,6 +43,11 @@
     <lastmod>2024-08-20T00:00:00.000Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://torhanningenieriasas.com/mesa.jpeg</image:loc>
+      <image:title>Servicios de Ingeniería en Colombia</image:title>
+      <image:caption>Servicios integrales de ingeniería civil, ambiental y agroindustrial en Colombia</image:caption>
+    </image:image>
   </url>
 
   <url>
@@ -40,6 +55,11 @@
     <lastmod>2024-08-20T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://torhanningenieriasas.com/puente.jpeg</image:loc>
+      <image:title>Galería de Proyectos</image:title>
+      <image:caption>Proyectos de ingeniería realizados por Torhann en Colombia</image:caption>
+    </image:image>
   </url>
 
   <url>
@@ -47,6 +67,11 @@
     <lastmod>2024-08-20T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://torhanningenieriasas.com/johann.jpeg</image:loc>
+      <image:title>Equipo de Ingenieros en Colombia</image:title>
+      <image:caption>Profesionales especialistas en ingeniería con experiencia en Colombia</image:caption>
+    </image:image>
   </url>
 
   <url>
@@ -56,118 +81,38 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- Servicios Específicos -->
+  <!-- Secciones Adicionales (contenido implementado) -->
   <url>
-    <loc>https://torhanningenieriasas.com/servicios/ingenieria-civil</loc>
-    <lastmod>2024-08-20T00:00:00.000Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://torhanningenieriasas.com/equipo.png</image:loc>
-      <image:title>Ingeniería Civil en Colombia</image:title>
-      <image:caption>Servicios de ingeniería civil, diseño estructural y supervisión de obras</image:caption>
-    </image:image>
-  </url>
-
-  <url>
-    <loc>https://torhanningenieriasas.com/servicios/ingenieria-ambiental</loc>
-    <lastmod>2024-08-20T00:00:00.000Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://torhanningenieriasas.com/mesa.jpeg</image:loc>
-      <image:title>Ingeniería Ambiental en Colombia</image:title>
-      <image:caption>Consultoría ambiental, planes de manejo y sostenibilidad</image:caption>
-    </image:image>
-  </url>
-
-  <url>
-    <loc>https://torhanningenieriasas.com/servicios/ingenieria-agroindustrial</loc>
-    <lastmod>2024-08-20T00:00:00.000Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://torhanningenieriasas.com/charla1.jpeg</image:loc>
-      <image:title>Ingeniería Agroindustrial en Colombia</image:title>
-      <image:caption>Diseño de plantas agroindustriales y control de calidad</image:caption>
-    </image:image>
-  </url>
-
-  <url>
-    <loc>https://torhanningenieriasas.com/servicios/consultoria-tecnica</loc>
-    <lastmod>2024-08-20T00:00:00.000Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://torhanningenieriasas.com/servicios/sst-colombia</loc>
-    <lastmod>2024-08-20T00:00:00.000Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://torhanningenieriasas.com/servicios/drones-topografia</loc>
-    <lastmod>2024-08-20T00:00:00.000Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://torhanningenieriasas.com/puente.jpeg</image:loc>
-      <image:title>Topografía con Drones en Colombia</image:title>
-      <image:caption>Levantamientos topográficos de alta precisión con drones</image:caption>
-    </image:image>
-  </url>
-
-  <!-- Páginas de Información -->
-  <url>
-    <loc>https://torhanningenieriasas.com/proyectos</loc>
-    <lastmod>2024-08-20T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://torhanningenieriasas.com/certificaciones</loc>
+    <loc>https://torhanningenieriasas.com/#beneficios</loc>
     <lastmod>2024-08-20T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://torhanningenieriasas.com/blog</loc>
+    <loc>https://torhanningenieriasas.com/#trayectoria</loc>
     <lastmod>2024-08-20T00:00:00.000Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 
-  <!-- Páginas de Ubicación -->
   <url>
-    <loc>https://torhanningenieriasas.com/contacto/colombia</loc>
+    <loc>https://torhanningenieriasas.com/#clientes</loc>
+    <lastmod>2024-08-20T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://torhanningenieriasas.com/agro.png</image:loc>
+      <image:title>Clientes y Aliados</image:title>
+      <image:caption>Empresas que confían en los servicios de Torhann Ingeniería en Colombia</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://torhanningenieriasas.com/#testimonios</loc>
     <lastmod>2024-08-20T00:00:00.000Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://torhanningenieriasas.com/ubicacion/bogota</loc>
-    <lastmod>2024-08-20T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://torhanningenieriasas.com/ubicacion/medellin</loc>
-    <lastmod>2024-08-20T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://torhanningenieriasas.com/ubicacion/colombia</loc>
-    <lastmod>2024-08-20T00:00:00.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
 
 </urlset>
