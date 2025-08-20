@@ -90,13 +90,13 @@ export default function ContactForm() {
       title: "Sitio Web",
       content: (
         <a
-          href="https://www.torhanningenieria.com"
+          href="https://www.torhanningenieriasas.com"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-highlight transition-colors text-sm md:text-base"
           aria-label="Visitar sitio web principal de Torhann Ingeniería"
         >
-          www.torhanningenieria.com
+          www.torhanningenieriasas.com
         </a>
       ),
       color: "bg-purple-500",
@@ -344,7 +344,7 @@ export default function ContactForm() {
             name: "Contacto - Torhann Ingeniería S.A.S. Colombia",
             description:
               "Contacta con Torhann Ingeniería para servicios de ingeniería en Colombia",
-            url: "https://torhanningenieria.com#contacto",
+            url: "https://torhanningenieriasas.com#contacto",
             mainEntity: {
               "@type": "Organization",
               name: "Torhann Ingeniería S.A.S.",

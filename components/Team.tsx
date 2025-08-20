@@ -163,7 +163,7 @@ export default function Team() {
             name: "Equipo de Ingenieros en Colombia",
             description:
               "Equipo profesional de ingenieros especializados en servicios de ingeniería en Colombia",
-            url: "https://torhanningenieria.com#equipo",
+            url: "https://torhanningenieriasas.com/#equipo",
             numberOfItems: 2,
             itemListElement: [
               {

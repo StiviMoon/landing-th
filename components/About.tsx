@@ -272,8 +272,8 @@ export default function About() {
             name: "Torhann Ingeniería S.A.S.",
             description:
               "Empresa colombiana líder en servicios de ingeniería civil, ambiental y agroindustrial",
-            url: "https://torhanningenieria.com",
-            logo: "https://torhanningenieria.com/logotC.png",
+            url: "https://torhanningenieriasas.com",
+            logo: "https://torhanningenieriasas.com/logotC.png",
             foundingDate: "2017",
             numberOfEmployees: "10-50",
             address: {

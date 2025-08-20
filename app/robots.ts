@@ -19,7 +19,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/api/"],
       },
     ],
-    sitemap: "https://torhanningenieria.com/sitemap.xml",
-    host: "https://torhanningenieria.com",
+    sitemap: "https://torhanningenieriasas.com/sitemap.xml",
+    host: "https://torhanningenieriasas.com",
   };
 }

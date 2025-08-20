@@ -104,7 +104,7 @@ export default function Hero() {
             name: "Torhann Ingeniería S.A.S.",
             description:
               "Empresa líder en servicios de ingeniería civil, ambiental y agroindustrial en Colombia",
-            url: "https://torhanningenieria.com",
+            url: "https://torhanningenieriasas.com",
             telephone: "+57-302-840-4105",
             email: "torhanningenieriasas@gmail.com",
             address: {

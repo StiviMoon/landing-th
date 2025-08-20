@@ -35,14 +35,14 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://torhanningenieria.com"),
+  metadataBase: new URL("https://torhanningenieriasas.com"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     type: "website",
     locale: "es_CO",
-    url: "https://torhanningenieria.com",
+    url: "https://torhanningenieriasas.com",
     siteName: "Torhann Ingeniería S.A.S.",
     title: "Torhann Ingeniería S.A.S. - Servicios de Ingeniería en Colombia",
     description:
@@ -110,16 +110,16 @@ export default function RootLayout({
   return (
     <html lang="es" className={inter.className}>
       <head>
-        <link rel="canonical" href="https://torhanningenieria.com" />
+        <link rel="canonical" href="https://torhanningenieriasas.com" />
         <link
           rel="alternate"
           hrefLang="es"
-          href="https://torhanningenieria.com"
+          href="https://torhanningenieriasas.com"
         />
         <link
           rel="alternate"
           hrefLang="x-default"
-          href="https://torhanningenieria.com"
+          href="https://torhanningenieriasas.com"
         />
         <meta name="geo.region" content="CO" />
         <meta name="geo.placename" content="Colombia" />
@@ -178,12 +178,12 @@ export default function RootLayout({
               alternateName: "Torhann Ingeniería",
               description:
                 "Empresa colombiana especializada en servicios de ingeniería civil, ambiental y agroindustrial con estándares internacionales de calidad.",
-              url: "https://torhanningenieria.com",
-              logo: "https://torhanningenieria.com/logotC.png",
-              image: "https://torhanningenieria.com/og-image.jpg",
+              url: "https://torhanningenieriasas.com",
+              logo: "https://torhanningenieriasas.com/logotC.png",
+              image: "https://torhanningenieriasas.com/og-image.jpg",
               sameAs: [
                 "https://www.instagram.com/Torhann.ingenieriasas",
-                "http://www.torhanningenieria.com",
+                "http://www.torhanningenieriasas.com",
               ],
               contactPoint: {
                 "@type": "ContactPoint",

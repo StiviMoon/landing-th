@@ -231,7 +231,7 @@ export default function Services() {
             name: "Servicios de Ingeniería en Colombia",
             description:
               "Catálogo completo de servicios de ingeniería civil, ambiental y agroindustrial en Colombia",
-            url: "https://torhanningenieria.com#servicios",
+            url: "https://torhanningenieriasas.com#servicios",
             numberOfItems: 6,
             itemListElement: [
               {

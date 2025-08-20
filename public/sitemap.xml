@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Página Principal -->
+  <url>
+    <loc>https://torhanningenieriasas.com/</loc>
+    <lastmod>2024-08-20T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://torhanningenieriasas.com/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://torhanningenieriasas.com/"/>
+  </url>
+
+  <!-- Secciones Principales -->
+  <url>
+    <loc>https://torhanningenieriasas.com/#inicio</loc>
+    <lastmod>2024-08-20T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://torhanningenieriasas.com/#nosotros</loc>
+    <lastmod>2024-08-20T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://torhanningenieriasas.com/#servicios</loc>
+    <lastmod>2024-08-20T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://torhanningenieriasas.com/#galeria</loc>
+    <lastmod>2024-08-20T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://torhanningenieriasas.com/#equipo</loc>
+    <lastmod>2024-08-20T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://torhanningenieriasas.com/#contacto</loc>
+    <lastmod>2024-08-20T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Servicios Específicos -->
+  <url>
+    <loc>https://torhanningenieriasas.com/servicios/ingenieria-civil</loc>
+    <lastmod>2024-08-20T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://torhanningenieriasas.com/equipo.png</image:loc>
+      <image:title>Ingeniería Civil en Colombia</image:title>
+      <image:caption>Servicios de ingeniería civil, diseño estructural y supervisión de obras</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://torhanningenieriasas.com/servicios/ingenieria-ambiental</loc>
+    <lastmod>2024-08-20T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://torhanningenieriasas.com/mesa.jpeg</image:loc>
+      <image:title>Ingeniería Ambiental en Colombia</image:title>
+      <image:caption>Consultoría ambiental, planes de manejo y sostenibilidad</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://torhanningenieriasas.com/servicios/ingenieria-agroindustrial</loc>
+    <lastmod>2024-08-20T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://torhanningenieriasas.com/charla1.jpeg</image:loc>
+      <image:title>Ingeniería Agroindustrial en Colombia</image:title>
+      <image:caption>Diseño de plantas agroindustriales y control de calidad</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://torhanningenieriasas.com/servicios/consultoria-tecnica</loc>
+    <lastmod>2024-08-20T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://torhanningenieriasas.com/servicios/sst-colombia</loc>
+    <lastmod>2024-08-20T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://torhanningenieriasas.com/servicios/drones-topografia</loc>
+    <lastmod>2024-08-20T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://torhanningenieriasas.com/puente.jpeg</image:loc>
+      <image:title>Topografía con Drones en Colombia</image:title>
+      <image:caption>Levantamientos topográficos de alta precisión con drones</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Páginas de Información -->
+  <url>
+    <loc>https://torhanningenieriasas.com/proyectos</loc>
+    <lastmod>2024-08-20T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://torhanningenieriasas.com/certificaciones</loc>
+    <lastmod>2024-08-20T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://torhanningenieriasas.com/blog</loc>
+    <lastmod>2024-08-20T00:00:00.000Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Páginas de Ubicación -->
+  <url>
+    <loc>https://torhanningenieriasas.com/contacto/colombia</loc>
+    <lastmod>2024-08-20T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://torhanningenieriasas.com/ubicacion/bogota</loc>
+    <lastmod>2024-08-20T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://torhanningenieriasas.com/ubicacion/medellin</loc>
+    <lastmod>2024-08-20T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://torhanningenieriasas.com/ubicacion/colombia</loc>
+    <lastmod>2024-08-20T00:00:00.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
